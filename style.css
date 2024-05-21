@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(76, 202, 76);
+}
+.logo h1{
+    background-color: white;
+    display: block;
+    padding: 20px;
+    margin-left: 40px;
+    color:  rgb(76, 202, 76) ;
+}
+.navitems ul li{
+    display: inline;
+    justify-content: space-between;
+    padding-left: 60px;
+    text-decoration: none;
+
+}
+.navitems{
+    margin-right: 330px;
+}
+.navitems ul li a{
+    text-decoration: none;
+    color: white;
+}
+.section1{
+    width: 100%;
+    height: 500px;
+    background-image: url("image\ css\ assign.png");
+    color: white;
+    
+}
+.sectext{
+   text-align: center;
+   position: relative;
+   top: 40%;
+   
+
+}
+.sectext h1{
+    font-size: 60px;
+}
+.sectext h4{
+    font-size: 25px;
+    font-style: italic;
+}
+.section2{
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+
+}
+.section2{
+    text-align: center;
+   position: relative;
+   top: 40%;
+   color: white;
+   
+}
+.sec2text h1{
+    font-size: 60px;
+}
+.sec2text h4{
+    font-size: 25px;
+    font-style: italic;
+}
+.items{
+    display: flex;
+    justify-content: center;
+
+}
+.foot{
+    display: flex;
+    gap: 30%;
+    text-align: center;
+    justify-content: center;
+}
